@@ -1,0 +1,16 @@
+{
+  "name": "promised-kinesis",
+  "version": "0.1.0",
+  "description": "A simple Promise wrapper around AWS Kinesis putRecord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "Kinesis",
+    "Promise"
+  ],
+  "author": "Paul Michelotti",
+  "license": "Apache-2.0"
+}
