@@ -5,8 +5,7 @@ module.exports = function( environment ) {
         if ( !record.type ) {
             throw new Error( 'Environment and Type Stream Name Factory requires a type key on records' );
         }
-
-        return `${environment}-${record.type}`
+        return `${environment}-${record.type}`;
 
     };
 
