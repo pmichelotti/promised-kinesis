@@ -4,6 +4,10 @@ A simple promise based wrapper around Kinesis Publish.
 
 ## Usage
 
+```
+npm install promised-kinesis
+```
+
 ```javascript
 const AWS = require( 'aws-sdk' );
 const PromisedKinesis = require( 'promised-kinesis' );

@@ -2,3 +2,5 @@
 *.iml
 quicktest.js
 .DS_Store
+node_modules/
+
