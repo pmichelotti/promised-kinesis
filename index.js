@@ -9,7 +9,7 @@ const PromisedKinesis = function( kinesis, streamNameFactory ) {
 
             try {
                 kinesis.putRecord( {
-                    Data: JSON.stringify(record),
+                    Data: typeof record === 'object' ? JSON.stringify(record) : record,
                     PartitionKey: partitionKey,
                     StreamName: streamName ? streamName : streamNameFactory(record)
                 }, (err, data) => {

@@ -1,5 +1,9 @@
 module.exports = function( environment ) {
 
+    if ( !environment ) {
+        throw new Error( 'No value provided for environment. Environment is a required parameter of the Environment and Type Stream Name Factory' );
+    }
+
     return function( record ) {
 
         if ( !record.type ) {

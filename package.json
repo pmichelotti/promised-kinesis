@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "A simple Promise wrapper around AWS Kinesis putRecord",
   "main": "index.js",
+  "repository": "https://github.com/pmichelotti/promised-kinesis",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "AWS",
@@ -12,5 +13,11 @@
     "Promise"
   ],
   "author": "Paul Michelotti",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "mocha": "^5.0.5",
+    "should": "^13.2.1",
+    "should-sinon": "0.0.6",
+    "sinon": "^4.5.0"
+  }
 }
